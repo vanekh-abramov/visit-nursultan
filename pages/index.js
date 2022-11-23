@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import { Container } from 'react-bootstrap';
-import MainHead from './head/MainHead';
+import MainHead from './head/MainHead.js';
 import classes from '../styles/Home.module.css';
 import SubHead from './subhead/SubHead';
+import MainContent from './mainContent/MainContent';
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
           <SubHead />
         </Container>
       </section>
+      <Container className={classes.main_container}>
+        <MainContent />
+      </Container>
     </>
   )
 }

@@ -12,3 +12,9 @@
   background: no-repeat center url('../assets/img/sea_background.jpg');
   background-size: cover;
 }
+
+.main_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
