@@ -1,0 +1,14 @@
+.head_container {
+  min-height: 100vh;
+  width: auto;
+  background: no-repeat center url('../assets/img/backgroundIMG.jpg');
+  background-size: cover;
+}
+
+.subhead_container {
+  position: relative;
+  width: auto;
+  min-height: 500px;
+  background: no-repeat center url('../assets/img/sea_background.jpg');
+  background-size: cover;
+}

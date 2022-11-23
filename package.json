@@ -1,0 +1,25 @@
+{
+  "name": "visit-nursultan",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.4",
+    "next": "13.0.4",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.6.0",
+    "react-dom": "18.2.0",
+    "swiper": "^8.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.9",
+    "typescript": "4.9.3"
+  }
+}
