@@ -77,139 +77,167 @@ p {
 .bullet:nth-child(1):after {
   content: '';
   position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 55px;
-  height: 55px;
+  left: 5px;
+  top: 5px;
+  width: 80%;
+  height: 80%;
   background: center / contain no-repeat url(../assets/img/sliders_btn/slide-btn1.svg);
 }
 
 .bullet:nth-child(2):after {
   content: '';
   position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 55px;
-  height: 55px;
+  left: 5px;
+  top: 5px;
+  width: 80%;
+  height: 80%;
   background: center / contain no-repeat url(../assets/img/sliders_btn/slide-btn2.svg);
 }
 
 .bullet:nth-child(3):after {
   content: '';
   position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 55px;
-  height: 55px;
+  left: 5px;
+  top: 5px;
+  width: 80%;
+  height: 80%;
   background: center / contain no-repeat url(../assets/img/sliders_btn/slide-btn3.svg);
 }
 
 .bullet:nth-child(4):after {
   content: '';
   position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 55px;
-  height: 55px;
+  left: 5px;
+  top: 5px;
+  width: 80%;
+  height: 80%;
   background: center / contain no-repeat url(../assets/img/sliders_btn/slide-btn4.svg);
 }
 
 .bullet:nth-child(5):after {
   content: '';
   position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 55px;
-  height: 55px;
+  left: 5px;
+  top: 5px;
+  width: 80%;
+  height: 80%;
   background: center / contain no-repeat url(../assets/img/sliders_btn/slide-btn5.svg);
 }
 
 .bullet:nth-child(6):after {
   content: '';
   position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 55px;
-  height: 55px;
+  left: 5px;
+  top: 5px;
+  width: 80%;
+  height: 80%;
   background: center / contain no-repeat url(../assets/img/sliders_btn/slide-btn6.svg);
 }
 
 .bullet:nth-child(7):after {
   content: '';
   position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 55px;
-  height: 55px;
+  left: 5px;
+  top: 5px;
+  width: 80%;
+  height: 80%;
   background: center / contain no-repeat url(../assets/img/sliders_btn/slide-btn7.svg);
 }
 
 .bullet_active.bullet_active:nth-child(1)::after {
   content: '';
   position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 55px;
-  height: 55px;
+  left: 5px;
+  top: 5px;
+  width: 80%;
+  height: 80%;
   background: center / contain no-repeat url(../assets/img/sliders_btn/slide-btn1-black.svg);
 }
 
 .bullet_active.bullet_active:nth-child(2)::after {
   content: '';
   position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 55px;
-  height: 55px;
+  left: 5px;
+  top: 5px;
+  width: 80%;
+  height: 80%;
   background: center / contain no-repeat url(../assets/img/sliders_btn/slide-btn2-black.svg);
 }
 
 .bullet_active.bullet_active:nth-child(3)::after {
   content: '';
   position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 55px;
-  height: 55px;
+  left: 5px;
+  top: 5px;
+  width: 80%;
+  height: 80%;
   background: center / contain no-repeat url(../assets/img/sliders_btn/slide-btn3-black.svg);
 }
 
 .bullet_active.bullet_active:nth-child(4)::after {
   content: '';
   position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 55px;
-  height: 55px;
+  left: 5px;
+  top: 5px;
+  width: 80%;
+  height: 80%;
   background: center / contain no-repeat url(../assets/img/sliders_btn/slide-btn4-black.svg);
 }
 
 .bullet_active.bullet_active:nth-child(5)::after {
   content: '';
   position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 55px;
-  height: 55px;
+  left: 5px;
+  top: 5px;
+  width: 80%;
+  height: 80%;
   background: center / contain no-repeat url(../assets/img/sliders_btn/slide-btn5-black.svg);
 }
 
 .bullet_active.bullet_active:nth-child(6)::after {
   content: '';
   position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 55px;
-  height: 55px;
+  left: 5px;
+  top: 5px;
+  width: 80%;
+  height: 80%;
   background: center / contain no-repeat url(../assets/img/sliders_btn/slide-btn6-black.svg);
 }
 
 .bullet_active.bullet_active:nth-child(7)::after {
   content: '';
   position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 55px;
-  height: 55px;
+  left: 5px;
+  top: 5px;
+  width: 80%;
+  height: 80%;
   background: center / contain no-repeat url(../assets/img/sliders_btn/slide-btn7-black.svg);
+}
+
+@media (max-width: 1000px) {
+  .my-custom-pagination-div {
+    z-index: 2;
+    position: absolute;
+    top: auto;
+    bottom: 20px;
+    left: 0;
+    height: auto;
+    padding-right: 0;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .bullet_active::before {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .bullet {
+    width: 40px;
+    height: 40px;
+  }  
 }

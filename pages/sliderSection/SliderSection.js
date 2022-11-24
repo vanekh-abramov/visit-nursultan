@@ -31,19 +31,13 @@ const Slider = () => {
     >
       <Container>
         <div className={classes.swiper_inner_block}>
-            <p className={classes.inner_block_top_title}>
-              Отдых рядом с городом
-            </p>
-            <p className={classes.inner_block_title}>
-              Коргалжынский заповедник
-            </p>
-            <p className={classes.inner_block_subtitle}>
-              Коргалжынский государственный природный заповедник называют
-              «жемчужиной края».
-            </p>
-            <button className={classes.inner_block_button}>
-              Подробнее
-            </button>
+          <p className={classes.inner_block_top_title}>Отдых рядом с городом</p>
+          <p className={classes.inner_block_title}>Коргалжынский заповедник</p>
+          <p className={classes.inner_block_subtitle}>
+            Коргалжынский государственный природный заповедник называют
+            «жемчужиной края».
+          </p>
+          <button className={classes.inner_block_button}>Подробнее</button>
         </div>
       </Container>
 
