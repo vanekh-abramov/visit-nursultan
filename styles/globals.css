@@ -48,17 +48,15 @@ p {
   cursor: pointer;
 }
 
-
-
 .bullet_active {
   position: relative;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 /* Вакханалия */
 
 .bullet_active::before {
-  content: 'Коргалжынский заповедник';
+  content: "Коргалжынский заповедник";
   position: absolute;
   padding: 20px 0 20px 35px;
   bottom: 10px;
@@ -68,150 +66,164 @@ p {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #03B0CD;
+  color: #03b0cd;
   border-radius: 45px 0px 0px 45px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   opacity: 0.8;
 }
 
 .bullet:nth-child(1):after {
-  content: '';
+  content: "";
   position: absolute;
   left: 5px;
   top: 5px;
   width: 80%;
   height: 80%;
-  background: center / contain no-repeat url('./../assets/img/sliders_btn/slide-btn1.svg');
+  background: center / contain no-repeat
+    url("./../assets/img/sliders_btn/slide-btn1.svg");
 }
 
 .bullet:nth-child(2):after {
-  content: '';
+  content: "";
   position: absolute;
   left: 5px;
   top: 5px;
   width: 80%;
   height: 80%;
-  background: center / contain no-repeat url('./../assets/img/sliders_btn/slide-btn2.svg');
+  background: center / contain no-repeat
+    url("./../assets/img/sliders_btn/slide-btn2.svg");
 }
 
 .bullet:nth-child(3):after {
-  content: '';
+  content: "";
   position: absolute;
   left: 5px;
   top: 5px;
   width: 80%;
   height: 80%;
-  background: center / contain no-repeat url('./../assets/img/sliders_btn/slide-btn3.svg');
+  background: center / contain no-repeat
+    url("./../assets/img/sliders_btn/slide-btn3.svg");
 }
 
 .bullet:nth-child(4):after {
-  content: '';
+  content: "";
   position: absolute;
   left: 5px;
   top: 5px;
   width: 80%;
   height: 80%;
-  background: center / contain no-repeat url('./../assets/img/sliders_btn/slide-btn4.svg');
+  background: center / contain no-repeat
+    url("./../assets/img/sliders_btn/slide-btn4.svg");
 }
 
 .bullet:nth-child(5):after {
-  content: '';
+  content: "";
   position: absolute;
   left: 5px;
   top: 5px;
   width: 80%;
   height: 80%;
-  background: center / contain no-repeat url('./../assets/img/sliders_btn/slide-btn5.svg');
+  background: center / contain no-repeat
+    url("./../assets/img/sliders_btn/slide-btn5.svg");
 }
 
 .bullet:nth-child(6):after {
-  content: '';
+  content: "";
   position: absolute;
   left: 5px;
   top: 5px;
   width: 80%;
   height: 80%;
-  background: center / contain no-repeat url('./../assets/img/sliders_btn/slide-btn6.svg');
+  background: center / contain no-repeat
+    url("./../assets/img/sliders_btn/slide-btn6.svg");
 }
 
 .bullet:nth-child(7):after {
-  content: '';
+  content: "";
   position: absolute;
   left: 5px;
   top: 5px;
   width: 80%;
   height: 80%;
-  background: center / contain no-repeat url('./../assets/img/sliders_btn/slide-btn7.svg');
+  background: center / contain no-repeat
+    url("./../assets/img/sliders_btn/slide-btn7.svg");
 }
 
 .bullet_active.bullet_active:nth-child(1)::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 5px;
   top: 5px;
   width: 80%;
   height: 80%;
-  background: center / contain no-repeat url('./../assets/img/sliders_btn/slide-btn1-black.svg');
+  background: center / contain no-repeat
+    url("./../assets/img/sliders_btn/slide-btn1-black.svg");
 }
 
 .bullet_active.bullet_active:nth-child(2)::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 5px;
   top: 5px;
   width: 80%;
   height: 80%;
-  background: center / contain no-repeat url('./../assets/img/sliders_btn/slide-btn2-black.svg');
+  background: center / contain no-repeat
+    url("./../assets/img/sliders_btn/slide-btn2-black.svg");
 }
 
 .bullet_active.bullet_active:nth-child(3)::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 5px;
   top: 5px;
   width: 80%;
   height: 80%;
-  background: center / contain no-repeat url('./../assets/img/sliders_btn/slide-btn3-black.svg');
+  background: center / contain no-repeat
+    url("./../assets/img/sliders_btn/slide-btn3-black.svg");
 }
 
 .bullet_active.bullet_active:nth-child(4)::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 5px;
   top: 5px;
   width: 80%;
   height: 80%;
-  background: center / contain no-repeat url('./../assets/img/sliders_btn/slide-btn4-black.svg');
+  background: center / contain no-repeat
+    url("./../assets/img/sliders_btn/slide-btn4-black.svg");
 }
 
 .bullet_active.bullet_active:nth-child(5)::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 5px;
   top: 5px;
   width: 80%;
   height: 80%;
-  background: center / contain no-repeat url('./../assets/img/sliders_btn/slide-btn5-black.svg');
+  background: center / contain no-repeat
+    url("./../assets/img/sliders_btn/slide-btn5-black.svg");
 }
 
 .bullet_active.bullet_active:nth-child(6)::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 5px;
   top: 5px;
   width: 80%;
   height: 80%;
-  background: center / contain no-repeat url('./../assets/img/sliders_btn/slide-btn6-black.svg');
+  background: center / contain no-repeat
+    url("./../assets/img/sliders_btn/slide-btn6-black.svg");
 }
 
 .bullet_active.bullet_active:nth-child(7)::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 5px;
   top: 5px;
   width: 80%;
   height: 80%;
-  background: center / contain no-repeat url('./../assets/img/sliders_btn/slide-btn7-black.svg');
+  background: center / contain no-repeat
+    url("./../assets/img/sliders_btn/slide-btn7-black.svg");
 }
 
 @media (max-width: 1000px) {

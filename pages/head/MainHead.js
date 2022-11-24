@@ -16,6 +16,7 @@ const MainHead = () => {
           className={classes.main_logo}
           src={main_logo}
           alt={"main_logo"}
+          priority 
         />
         <div className={classes.main_card}>
           <div className={classes.card_item}>
