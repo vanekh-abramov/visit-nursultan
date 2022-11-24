@@ -18,3 +18,9 @@
   align-items: center;
   justify-content: center;
 }
+
+.slider_section {
+  margin: 0 auto;
+  /* width: auto; */
+  max-height: 768px;
+}

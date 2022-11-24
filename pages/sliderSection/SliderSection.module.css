@@ -1,0 +1,66 @@
+.my_swiper {
+	max-width: 1920px;
+	max-height: 768px;
+}
+
+.swiper_inner_block {
+	width: 585px;
+	height: 768px;
+	padding: 200px 60px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	align-items: flex-start;
+	background: rgba(0, 0, 0, 0.27);
+	position: absolute;
+	z-index: 2;
+	top: 0;
+}
+
+.inner_block_top_title {
+	font-weight: 600;
+	font-size: 2.25rem;
+	line-height: 44px;
+	color: #FFFFFF;
+}
+
+.inner_block_title {
+	font-weight: 700;
+	font-size: 3rem;
+	line-height: 59px;
+	color: #FFFFFF;
+}
+
+.inner_block_subtitle {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5rem;
+	color: #FFFFFF;
+}
+
+.inner_block_button {
+	text-align: center;
+	position: relative;
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: -0.03em;
+	width: 154px;
+	height: 40px;
+	padding: 10px 45px 10px 25px;
+	border: 1px solid #FFFFFF;
+	border-radius: 25px;
+	background: transparent;
+}
+
+.inner_block_button::after {
+	content: '';
+	position: absolute;
+	right: 10px;
+	top: 16px;
+	width: 13px;
+	height: 13px;
+	background: no-repeat url(../../assets/img/right.svg);
+}
