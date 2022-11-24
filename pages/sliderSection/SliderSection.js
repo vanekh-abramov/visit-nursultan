@@ -3,6 +3,7 @@ import { Pagination, EffectFade, Autoplay } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import flamingos from "../../assets/img/flamingos.jpg";
+import mountains from "../../assets/img/mountains.jpg";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -51,8 +52,8 @@ const Slider = () => {
       <SwiperSlide>
         <Image
           className={classes.swiper_img}
-          src={flamingos}
-          alt={"flamingos"}
+          src={mountains}
+          alt={"mountains"}
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -65,8 +66,8 @@ const Slider = () => {
       <SwiperSlide>
         <Image
           className={classes.swiper_img}
-          src={flamingos}
-          alt={"flamingos"}
+          src={mountains}
+          alt={"mountains"}
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -79,8 +80,8 @@ const Slider = () => {
       <SwiperSlide>
         <Image
           className={classes.swiper_img}
-          src={flamingos}
-          alt={"flamingos"}
+          src={mountains}
+          alt={"mountains"}
         />
       </SwiperSlide>
       <SwiperSlide>
