@@ -22,7 +22,7 @@ const Header = () => {
             name="contact"
             value="email"
           />
-          <label className={classes.toggle_button} for="contactChoice1">
+          <label className={classes.toggle_button} htmlFor="contactChoice1">
             Tourism
           </label>
 
@@ -33,7 +33,7 @@ const Header = () => {
             name="contact"
             value="phone"
           />
-          <label className={classes.toggle_button} for="contactChoice2">
+          <label className={classes.toggle_button} htmlFor="contactChoice2">
             Invest
           </label>
 
@@ -44,7 +44,7 @@ const Header = () => {
             name="contact"
             value="mail"
           />
-          <label className={classes.toggle_button} for="contactChoice3">
+          <label className={classes.toggle_button} htmlFor="contactChoice3">
             Convention Bureau
           </label>
         </nav>
