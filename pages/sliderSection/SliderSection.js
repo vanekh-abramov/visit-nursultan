@@ -26,8 +26,12 @@ const Slider = () => {
   return (
     <Swiper
       pagination={pagination}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
       effect="fade"
-      modules={[Pagination, EffectFade]}
+      modules={[Pagination, EffectFade, Autoplay]}
       className={classes.my_swiper}
     >
       <Container>

@@ -230,6 +230,7 @@ p {
     flex-direction: row;
     justify-content: space-evenly;
   }
+
   .bullet_active::before {
     display: none;
   }
@@ -239,5 +240,5 @@ p {
   .bullet {
     width: 40px;
     height: 40px;
-  }  
+  }
 }
