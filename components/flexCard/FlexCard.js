@@ -1,8 +1,8 @@
 
 import Image from 'next/image';
-import classes from './MainCards.module.css'
+import classes from './FlexCard.module.css'
 
-const MainCards = ({ image_src, card_title, card_subtitle, direction }) => {
+const FlexCard = ({ image_src, card_title, card_subtitle, direction }) => {
   return (
     <div className={classes.card_1} style={{flexDirection: direction}}>
       <Image priority className={classes.card_img} src={image_src} alt={`"${image_src}"`} />
@@ -16,4 +16,4 @@ const MainCards = ({ image_src, card_title, card_subtitle, direction }) => {
   )
 }
 
-export default MainCards
+export default FlexCard
