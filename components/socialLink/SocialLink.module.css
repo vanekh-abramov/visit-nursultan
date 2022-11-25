@@ -1,0 +1,3 @@
+.social_link:not(:last-child) {
+  margin-right: 1.7rem;
+}

@@ -1,66 +1,31 @@
 import classes from "./Header.module.css";
-import Link from "next/link";
 import { Container } from "react-bootstrap";
 import Image from "next/image";
-import instagram from "../../assets/img/instagram.svg";
-import facebook from "../../assets/img/facebook.svg";
-import youtube from "../../assets/img/youtube.svg";
 import shopping_cart from "../../assets/img/shopping-cart.svg";
 import glass from "../../assets/img/glass.svg";
 import bar_chart from "../../assets/img/bar-chart.svg";
+import { navData } from '../../assets/data/navData';
+import NavButton from "../navButton/NavButton";
+import { socialLinksData } from './../../assets/data/socialLinksData';
+import SocialLink from "../socialLink/SocialLink";
 
 const Header = () => {
+
+
+
   return (
     <header className={classes.header}>
       <Container className={classes.header_wrapper}>
         <div className={classes.header_logo}></div>
         <nav className={classes.header_navigation}>
-          <input
-            className={classes.toggle_input}
-            type="radio"
-            id="contactChoice1"
-            name="contact"
-            value="email"
-          />
-          <label className={classes.toggle_button} htmlFor="contactChoice1">
-            Tourism
-          </label>
-
-          <input
-            className={classes.toggle_input}
-            type="radio"
-            id="contactChoice2"
-            name="contact"
-            value="phone"
-          />
-          <label className={classes.toggle_button} htmlFor="contactChoice2">
-            Invest
-          </label>
-
-          <input
-            className={classes.toggle_input}
-            type="radio"
-            id="contactChoice3"
-            name="contact"
-            value="mail"
-          />
-          <label className={classes.toggle_button} htmlFor="contactChoice3">
-            Convention Bureau
-          </label>
+          {navData.map(({ id, value, text }) => (
+            <NavButton key={id} connect={id} value={value} text={text} />
+          ))}
         </nav>
         <nav className={classes.header_social}>
-          <Link className={classes.social_link} href={"#"}>
-            {" "}
-            <Image src={instagram} alt="instagram" width={21} height={21} />
-          </Link>
-          <Link className={classes.social_link} href={"#"}>
-            {" "}
-            <Image src={facebook} alt="facebook" width={21} height={21} />
-          </Link>
-          <Link className={classes.social_link} href={"#"}>
-            {" "}
-            <Image src={youtube} alt="youtube" width={21} height={21} />
-          </Link>
+          {socialLinksData.map(({ src, href }) => (
+            <SocialLink key={src} src={src} href={href} />
+          ))}
         </nav>
         <div className={classes.header_tools}>
           <Image

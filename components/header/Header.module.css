@@ -26,44 +26,15 @@
   display: flex;
 }
 
-.toggle_input {
-  position: absolute;
-  clip: rect(0, 0, 0, 0);
-  pointer-events: none;
-}
-
-.toggle_button {
-  white-space: nowrap;
-  position: relative;
-  margin: auto;
-  padding: 6px 17px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  flex: 1 1 auto;
-  color: #ffffff;
-  font-size: 1rem;
-  text-transform: uppercase;
-  cursor: pointer;
-  background: none;
-  border: none;
-}
-
-.toggle_input:checked + .toggle_button {
-  border-radius: 29px;
-  background-color: #ffffff;
-  color: #011832;
-}
-
 .header_social {
   display: flex;
   justify-content: space-between;
   margin-left: 70px;
 }
 
-.social_link:not(:last-child) {
+/* .social_link:not(:last-child) {
   margin-right: 1.7rem;
-}
+} */
 
 .header_tools {
   display: flex;
