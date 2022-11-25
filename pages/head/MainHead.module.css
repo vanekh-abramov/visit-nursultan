@@ -11,9 +11,6 @@
 }
 
 .main_logo {
-  /* position: absolute;
-  top: calc(50% - 222px);
-  left: calc(50% - 868px/2); */
   margin: auto;
   width: 100%;
   height: 100%;
@@ -23,65 +20,4 @@
   display: flex;
   justify-content: space-around;
   margin-bottom: 50px;
-}
-
-.card_item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.card_img {
-  position: relative;
-  border-radius: 50%;
-  margin-bottom: 30px;
-  cursor: pointer;
-  z-index: 100;
-}
-.hoverd_img {
-  position: relative;
-  z-index: 1;
-}
-.hoverd_img:hover::after {
-  content: '';
-  position: absolute;
-  border-radius: 50%;
-  top: -25%;
-  left: -15%;
-  width: 130%;
-  height: 130%;
-  background: no-repeat center url('../../assets/img/hover-card.svg');
-}
-
-.card_title {
-  color: #ffffff;
-}
-
-.main_title {
-  text-align: center;
-  font-size: 1.1rem;
-  line-height: 21px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0;
-}
-
-.sup_title {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  font-weight: 400;
-  font-size: 0.9rem;
-  line-height: 17px;
-}
-
-@media (max-width: 775px) {
-  .card_item:nth-child(3) {
-    display: none;
-  }
-  .card_item:nth-child(4) {
-    display: none;
-  }
 }

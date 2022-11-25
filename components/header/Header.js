@@ -11,8 +11,6 @@ import SocialLink from "../socialLink/SocialLink";
 
 const Header = () => {
 
-
-
   return (
     <header className={classes.header}>
       <Container className={classes.header_wrapper}>
@@ -23,8 +21,8 @@ const Header = () => {
           ))}
         </nav>
         <nav className={classes.header_social}>
-          {socialLinksData.map(({ src, href }) => (
-            <SocialLink key={src} src={src} href={href} />
+          {socialLinksData.map(({ src, href }, id) => (
+            <SocialLink key={id} src={src} href={href} />
           ))}
         </nav>
         <div className={classes.header_tools}>
