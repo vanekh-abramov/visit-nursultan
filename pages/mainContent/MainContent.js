@@ -21,7 +21,7 @@ const MainContent = () => {
     window.addEventListener("resize", updateDimensions);
     return () => window.removeEventListener("resize", updateDimensions);
   });
-  
+
 
   return (
     <div className={classes.content_wrapper}>

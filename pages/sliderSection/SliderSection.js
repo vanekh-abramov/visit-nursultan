@@ -1,16 +1,16 @@
 import classes from "./SliderSection.module.css";
 import { Pagination, EffectFade, Autoplay } from "swiper";
-
 import { Swiper, SwiperSlide } from "swiper/react";
-import flamingos from "../../assets/img/flamingos.jpg";
-import mountains from "../../assets/img/mountains.jpg";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/effect-fade";
-import Image from "next/image";
 import { Container } from "react-bootstrap";
+import flamingos from "../../assets/img/flamingos.jpg";
+import mountains from "../../assets/img/mountains.jpg";
+import Image from "next/image";
+
 
 const Slider = () => {
   const pagination = {
@@ -45,9 +45,9 @@ const Slider = () => {
           <button className={classes.inner_block_button}>Подробнее</button>
         </div>
       </Container>
-
       <SwiperSlide>
         <Image
+          priority={true}
           className={classes.swiper_img}
           src={flamingos}
           alt={"flamingos"}
@@ -55,6 +55,7 @@ const Slider = () => {
       </SwiperSlide>
       <SwiperSlide>
         <Image
+          priority={true}
           className={classes.swiper_img}
           src={mountains}
           alt={"mountains"}
@@ -62,6 +63,7 @@ const Slider = () => {
       </SwiperSlide>
       <SwiperSlide>
         <Image
+          priority={true}
           className={classes.swiper_img}
           src={flamingos}
           alt={"flamingos"}
@@ -69,6 +71,7 @@ const Slider = () => {
       </SwiperSlide>
       <SwiperSlide>
         <Image
+          priority={true}
           className={classes.swiper_img}
           src={mountains}
           alt={"mountains"}
@@ -76,6 +79,7 @@ const Slider = () => {
       </SwiperSlide>
       <SwiperSlide>
         <Image
+          priority={true}
           className={classes.swiper_img}
           src={flamingos}
           alt={"flamingos"}
@@ -83,6 +87,7 @@ const Slider = () => {
       </SwiperSlide>
       <SwiperSlide>
         <Image
+          priority={true}
           className={classes.swiper_img}
           src={mountains}
           alt={"mountains"}
@@ -90,6 +95,7 @@ const Slider = () => {
       </SwiperSlide>
       <SwiperSlide>
         <Image
+          priority={true}
           className={classes.swiper_img}
           src={flamingos}
           alt={"flamingos"}
