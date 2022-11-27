@@ -13,6 +13,7 @@
   font-size: 3.1rem;
   opacity: 0.5;
 }
+
 @media (max-width: 785px) {
   .number {
     font-size: 2.5rem;

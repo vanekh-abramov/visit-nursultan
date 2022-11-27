@@ -28,6 +28,7 @@
   height: 130%;
   background: no-repeat center url('../../assets/img/hover-card.svg');
 }
+
 .card_title {
   color: #ffffff;
 }
@@ -55,6 +56,7 @@
   .card_item:nth-child(3) {
     display: none;
   }
+
   .card_item:nth-child(4) {
     display: none;
   }

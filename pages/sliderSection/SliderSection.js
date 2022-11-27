@@ -1,25 +1,24 @@
-import classes from "./SliderSection.module.css";
-import { Pagination, EffectFade, Autoplay } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
-import "swiper/css/effect-fade";
-import { Container } from "react-bootstrap";
-import flamingos from "../../assets/img/flamingos.jpg";
-import mountains from "../../assets/img/mountains.jpg";
-import Image from "next/image";
-
+import classes from './SliderSection.module.css';
+import { Pagination, EffectFade, Autoplay } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import 'swiper/css/effect-fade';
+import { Container } from 'react-bootstrap';
+import flamingos from '../../assets/img/flamingos.jpg';
+import mountains from '../../assets/img/mountains.jpg';
+import Image from 'next/image';
 
 const Slider = () => {
   const pagination = {
-    el: ".my-custom-pagination-div",
-    bulletClass: "bullet",
-    bulletActiveClass: "bullet_active",
+    el: '.my-custom-pagination-div',
+    bulletClass: 'bullet',
+    bulletActiveClass: 'bullet_active',
     clickable: true,
     renderBullet: (index, className) => {
-      return '<span class="' + className + '">' + "</span>";
+      return '<span class="' + className + '">' + '</span>';
     },
   };
 
@@ -30,7 +29,7 @@ const Slider = () => {
         delay: 2500,
         disableOnInteraction: false,
       }}
-      effect="fade"
+      effect='fade'
       modules={[Pagination, EffectFade, Autoplay]}
       className={classes.my_swiper}
     >
@@ -50,7 +49,7 @@ const Slider = () => {
           priority={true}
           className={classes.swiper_img}
           src={flamingos}
-          alt={"flamingos"}
+          alt={'flamingos'}
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -58,7 +57,7 @@ const Slider = () => {
           priority={true}
           className={classes.swiper_img}
           src={mountains}
-          alt={"mountains"}
+          alt={'mountains'}
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -66,7 +65,7 @@ const Slider = () => {
           priority={true}
           className={classes.swiper_img}
           src={flamingos}
-          alt={"flamingos"}
+          alt={'flamingos'}
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -74,7 +73,7 @@ const Slider = () => {
           priority={true}
           className={classes.swiper_img}
           src={mountains}
-          alt={"mountains"}
+          alt={'mountains'}
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -82,7 +81,7 @@ const Slider = () => {
           priority={true}
           className={classes.swiper_img}
           src={flamingos}
-          alt={"flamingos"}
+          alt={'flamingos'}
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -90,7 +89,7 @@ const Slider = () => {
           priority={true}
           className={classes.swiper_img}
           src={mountains}
-          alt={"mountains"}
+          alt={'mountains'}
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -98,10 +97,10 @@ const Slider = () => {
           priority={true}
           className={classes.swiper_img}
           src={flamingos}
-          alt={"flamingos"}
+          alt={'flamingos'}
         />
       </SwiperSlide>
-      <div className="my-custom-pagination-div"></div>
+      <div className='my-custom-pagination-div'></div>
     </Swiper>
   );
 };

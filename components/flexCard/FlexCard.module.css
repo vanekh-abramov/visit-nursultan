@@ -1,4 +1,3 @@
-
 .card_1 {
   width: 100%;
   display: flex;
@@ -31,7 +30,8 @@
   .cards_block:nth-child(2) .card_1:first-child {
     flex-direction: column;
   }
+
   .card_img {
     width: 350px;
-  }  
+  }
 }

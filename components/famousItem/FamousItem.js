@@ -1,5 +1,5 @@
-import React from 'react'
-import classes from './FamousItem.module.css'
+import React from 'react';
+import classes from './FamousItem.module.css';
 
 const FamousItem = ({ total, title }) => {
   return (
@@ -7,7 +7,7 @@ const FamousItem = ({ total, title }) => {
       <div className={classes.number}>{total}+</div>
       <p className={classes.number_subtitle}>{title}</p>
     </div>
-  )
-}
+  );
+};
 
-export default FamousItem
+export default FamousItem;

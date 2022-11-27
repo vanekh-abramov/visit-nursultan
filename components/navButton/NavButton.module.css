@@ -21,7 +21,7 @@
   border: none;
 }
 
-.toggle_input:checked + .toggle_button {
+.toggle_input:checked+.toggle_button {
   border-radius: 29px;
   background-color: #ffffff;
   color: #011832;

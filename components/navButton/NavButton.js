@@ -1,20 +1,20 @@
-import classes from './NavButton.module.css'
+import classes from './NavButton.module.css';
 
-const NavButton = ({connect, value, text}) => {
+const NavButton = ({ connect, value, text }) => {
   return (
     <>
       <input
         className={classes.toggle_input}
-        type="radio"
+        type='radio'
         id={connect}
-        name="contact"
+        name='contact'
         value={value}
       />
       <label className={classes.toggle_button} htmlFor={connect}>
         {text}
       </label>
     </>
-  )
-}
+  );
+};
 
-export default NavButton
+export default NavButton;
